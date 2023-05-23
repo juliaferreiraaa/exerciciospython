@@ -1,3 +1,4 @@
+
 # Exercícios Sessão 8
 '''
 # 1
@@ -5,7 +6,7 @@
 def dobro(nu):
     print(nu * 2)
 dobro(6)
-'''
+
 
 
 # 2
@@ -21,3 +22,33 @@ if 2000 in ano:
 
 data_nascimento()
 
+
+
+
+#3
+
+def positivo_ou_negativo(a):
+    if a > 0:
+        print('1')
+    elif a < 0:
+        print("-1")
+    else:
+        print("0")
+
+positivo_ou_negativo(-55)
+
+'''
+
+#4
+
+def quadrado_perfeito():
+    valor = int(input('Entre com um número, para saber o quadrado perfeito: '))
+
+    raizQ = int(valor ** (1 / 2))
+
+    if ((raizQ ** 2) == valor):
+        print('O número {0} é um quadrado perfeito!!!'.format(int(valor)))
+    else:
+        print('O número {0} não é quadrado perfeito!!!'.format(valor))
+
+quadrado_perfeito()
