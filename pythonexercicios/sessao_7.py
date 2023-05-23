@@ -44,7 +44,7 @@ print(vet)
 x = vet[2]
 y= vet[5]
 print(x+y)
-'''
+
 
 #5
 vet = [2, 5, 6, 4, 9, 8, 7, 10, 50, 44, 73]
@@ -53,6 +53,52 @@ quantidade = 0
 
 for i in vet:
     if (i % 2 == 0):
-    pares.append(vet)
+      pares.append(i)
 print(f'numeros pares encontrados{pares} ')
+
+
+#6
+vet = []
+limite = 11
+while limite > 0:
+    vet.append(input('digite um numero:'))
+    limite = limite - 1
+print(min(vet),max(vet))
+
+
+
+#7
+vet = []
+limite = 10
+while limite > 0:
+    vet.append(input('digite um número:'))
+    limite = limite -1
+for indice,valor in enumerate(vet):
+    print(indice,valor)
+
+
+
+#8
+
+vet = [2, 10, 55, 66, 44, 96]
+print(vet)
+
+vet.reverse()
+print(vet)
+
+
+#10
+vet = []
+limite = 5
+while limite > 0:
+    vet.append(int(input('digite a nota:')))
+    limite = limite - 1
+soma=0
+media = 0
+for i in vet:
+    soma = sum(vet)
+    media = soma / 5
+print(media)
+
+'''
 
